@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
+
+*{
+  box-sizing:border-box;
+  padding: 0;
+  margin: 0;
+}
+.box {
+background-color: transparent;
+display: flex;
+flex-direction: row;
+justify-content: center;
+width: 100%;
+}
+.box .ellipse-wrapper {
+border: 0px none;
+height: 348px;
+width: 432px;
+}
+.box .ellipse {
+background-color: #3f4059;
+border-radius: 216px/174px;
+filter: blur(300px);
+height: 348px;
+left: 0;
+position: fixed;
+top: 0;
+width: 432px;
+}
